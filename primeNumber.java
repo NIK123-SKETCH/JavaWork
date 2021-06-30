@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class primeNum{
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
+    System.out.println("Please insert any number ");
     int n = sc.nextInt();
     boolean b = false;
     for(int i=2; i<n/2; i++)
@@ -12,7 +13,7 @@ public class primeNum{
       }
     }
     if(!b){
-      System.out.println(n + " is a prime number.");
+      System.out.println(n + " is a prime number");
     }
     else{
       System.out.println(n + " is not a prime number.");
